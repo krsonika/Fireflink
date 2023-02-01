@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Empty browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[is Multi select dropdown is:false]]>
+    </line>
+    <line>
+      <![CDATA[dropdown working properly]]>
+    </line>
+    <line>
+      <![CDATA[dropdown working properly when selects 8]]>
+    </line>
+    <line>
+      <![CDATA[dropdown working properly when selects 12]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21974" started-at="2023-01-31T22:48:14 IST" finished-at="2023-01-31T22:48:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21974" started-at="2023-01-31T22:48:14 IST" finished-at="2023-01-31T22:48:36 IST">
+      <class name="Apparel_Shoes.TC_04Test">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:Apparel_Shoes.TC_04Test@a74868d]" name="launchBrowser" is-config="true" duration-ms="8097" started-at="2023-01-31T22:48:14 IST" finished-at="2023-01-31T22:48:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Empty browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Apparel_Shoes.TC_04Test@a74868d]" name="login" is-config="true" duration-ms="3116" depends-on-groups="launch" started-at="2023-01-31T22:48:22 IST" finished-at="2023-01-31T22:48:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Display()[pri:0, instance:Apparel_Shoes.TC_04Test@a74868d]" name="Display" duration-ms="9072" started-at="2023-01-31T22:48:25 IST" finished-at="2023-01-31T22:48:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[is Multi select dropdown is:false]]>
+            </line>
+            <line>
+              <![CDATA[dropdown working properly]]>
+            </line>
+            <line>
+              <![CDATA[dropdown working properly when selects 8]]>
+            </line>
+            <line>
+              <![CDATA[dropdown working properly when selects 12]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Display -->
+        <test-method status="PASS" signature="logoutAndCloseTheBrowser()[pri:0, instance:Apparel_Shoes.TC_04Test@a74868d]" name="logoutAndCloseTheBrowser" is-config="true" duration-ms="1618" started-at="2023-01-31T22:48:34 IST" finished-at="2023-01-31T22:48:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAndCloseTheBrowser -->
+      </class> <!-- Apparel_Shoes.TC_04Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
